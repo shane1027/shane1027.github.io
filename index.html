@@ -1,69 +1,284 @@
 <!DOCTYPE HTML>
 <!--
-	Shane's Social Page
-	Aerial by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Shane Ryan</title>
+		<title>Shane Ryan's Professional Page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main_2.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8_2.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9_2.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/logo_2.ico" type="image/x-icon" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="landing">
+		<div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Shane Ryan</h1>
-						<p>University of Notre Dame &nbsp;&bull;&nbsp; 2018<p>
-						<p>B.S. Electrical Engineering &nbsp;&bull;&nbsp; B.S. Physics</p>
+			<!-- Header -->
+				<header id="header">	
+					<h1 id="logo"><a href="index.html" >Shane Ryan</a></h1>
+					<nav id="nav">
+						<ul>
+							<li>
+								<a href="#one" >About Me</a>
+								
+							</li>
+							<li>
+								<a href="experience.html" >Experience and Education</a>
+								<ul>
+									<li><a href="experience.html">University of Notre Dame</a></li>
+									<li><a href="experience.html">Brodeur Nuclear Research</a></li>
+									<li><a href="experience.html">Hall Optoelectronic Research</a></li>
+									<li><a href="experience.html">Prospect High School</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="projects.html" >Projects</a>
+								<ul>
+								<!-- the idea here is to have a main projects page, with each
+								drop down in the projects menu being able to jump to the project
+								instance on that page.... i.e. projects.html#2 -->
 
-						<!-- <p>Electrical Engineering &nbsp;&bull;&nbsp; Physics<p>
-						<p>Notre Dame &nbsp;&bull;&nbsp; 2018<p> -->
+									<li><a href="projects.html">Vintage Motorcycle Restoration</a></li>
+									<li><a href="projects.html">POV Display</a></li>
+									<li><a href="projects.html">3D Printed Drone</a></li>
+									<li><a href="projects.html">Snapchat Group Server</a></li>
+									<li><a href="projects.html">Internet Connected Keurig K40</a></li>
+									<li><a href="projects.html">Dorm Mail Notification System</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="resume.html" >Resume</a>
+									<ul>
+										<li><a href="about_me.html" >Overview</a></li>
+										<li><a href="social.html" >Social Sites</a></li>
+										<li><a href="contact.html" >Contact</a></li>
+									</ul>
+							</li>
+							
+							<!--
+							<li><a href="index.html" class="button">Home</a></li>
+							-->
 
-						<!--
-						<p>B.S. Electrical Engineering &nbsp;&bull;&nbsp; College of Engineering &nbsp;&bull;&nbsp; 2018</p>
-						<p>B.S. Physics &nbsp;&bull;&nbsp; College of Science &nbsp;&bull;&nbsp; 2018</p>
-						-->
+						</ul>
+					</nav>
+				</header>
 
-						<nav>
-							<ul>
-								<li><a href="https://www.facebook.com/shane.1027" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/sryan1027/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="main.html" class="icon fa-newspaper-o"><span class="label">Professional</span></a></li>
-								<li><a href="https://www.github.com/shane1027" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="tel:1-847-962-1708" class="icon fa-phone"><span class="label">Phone</span></a></li>
-								<li><a href="mailto:sryan8@nd.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Shane Ryan</h2>
+							<p>University of Notre Dame 🍀 2018<br />
+							B.S. Physics<br />
+							B.S. Electrical Engineering</p>
+						</header>
+						<span class="image"><img src="images/headshot.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/notredamebanner.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Who I Am</h2>
+										<ul>
+											<li>Student</li>
+											<li>Brother</li>
+											<li>Teammate</li>
+											<li>Leader</li>
+										</ul>
+
+										<!-- add bullets of inteerests here (i.e. space, tech, controls, flight, robotics, etc.) -->
+
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>I am the oldest of five kids in a large, Irish family of seven.
+									Championing hard work and committment, I was the 2014 Valedictorian of 
+									Prospect High School, sporting a perfect GPA, 35 ACT, and 2310 SAT
+									while playing varsity football and tennis.
+									<br /><br />Achieving 5's on ten AP exams in high school enabled my
+									current pursuit of two degrees in four years at Notre Dame, namely Electrical Engineering
+									and Physics.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Now in my second year of school, I have conducted research with groups 
+									in both fields.  Current leadership roles include acting as a Squad Lead 
+									for the NASA sponsored Notre Dame Rocketry Team and my long-standing status as
+									a campus-wide STEM tutor. <br /><br />
+									Outside of the classroom I enjoy playing the acoustic guitar, tinkering with 
+									Arch Linux, microcontrollers, and embedded systems, and playing dorm football and
+									basketball.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/electronics.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Interdum amet non magna accumsan</h2>
+							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+						</header>
+						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/space.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Interdum felis blandit praesent sed augue</h2>
+							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+						</header>
+						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Awards and Honors</h2>
+							<p>Here are some of my recent accomplishments:</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-graduation-cap"></span>
+									<h3>Prospect High School Valedictorian</h3>
+									<p>Number 1 of 525 in my <a href="http://www.usnews.com/education/best-high-schools/illinois/districts/township-high-school-district-214/prospect-high-school-6471">school</a>&nbsp;and highest GPA in the school district.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major">
+										<p></p>
+											<p><h2>35</h2></p>
+									</span>
+									<h3>ACT</h3>
+									<p>Perfect scores on Reading, Math, and Science, with a superscored 36.<br>
+									<a href="https://en.wikipedia.org/wiki/ACT_(test)#Score_cumulative_percentages_and_comparison_with_SAT" >Statistics</a></p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major">
+										<p></p>
+											<p><h2>2310</h2></p>
+									</span>
+									<h3>SAT</h3>
+									<p>Scoring a 2310 three-part and 1580 two-part places me higher than
+									<a href="https://en.wikipedia.org/wiki/SAT#Raw_scores.2C_scaled_scores.2C_and_percentiles" >99.5</a>
+									&nbsp;percent of test takers.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-gears"></span>
+									<h3>Engineering Honors Program</h3>
+									<p>Recruited for a highly selective, twenty person, <a href="https://engineering.nd.edu/academics/programs/ehp/admission-to-esp-ehp">
+									accelerated engineering program</a>&nbsp;on campus.</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-university"></span>
+									<h3>Trustey Engineering Scholar</h3>
+									<p>Engineering <a href="http://financialaid.nd.edu/prospective-students/funding/merit-based-assistance/trustey-family-scholar-award/">
+									Merit Scholarship</a>&nbsp;of $100,000 awarded to five Notre Dame students annually.</p>
+								</section>
+								<section class="4u$ 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-flask"></span>
+									<h3>Rocketry Team Squad Leader</h3>
+									<p>One of three Squad Leaders on the <a href="http://www.nasa.gov/audience/forstudents/studentlaunch/home/">
+									NASA sponsored</a>&nbsp;Notre Dame Rocketry Team.</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa">
+										<p></p>
+											<p><h2>5</h2></p>
+									</span>
+									<h3>National AP Scholar</h3>
+									<p>Earned by scoring 5's on ten rigorous AP exams.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-file-text"></span>
+									<h3>Co-Author of Two Scientific Papers</h3>
+									<p>Listed as co-author of two publications in a prominent nuclear science journal.</p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-trophy"></span>
+									<h3>National Merit Semifinalist</h3>
+									<p>Excelled in nationally standardized testing prior to the SAT and ACT.</p>
+								</section>
+							</div>
+						</div>
+						<footer class="major">
+							<ul class="actions">
+								<li><a href="resume.html" class="button">Resume</a></li>
 							</ul>
-						</nav>
-					</header>
+						</footer>
+					</div>
+				</section>
 
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Magna faucibus lorem diam</h2>
+							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+						</header>
+						<form method="post" action="#" class="container 50%">
+							<div class="row uniform 50%">
+								<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+								<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
 
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/shane.1027" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/sryan1027/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.github.com/shane1027" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="tel:1-847-962-1708" class="icon alt fa-phone"><span class="label">Phone</span></a></li>
+						<li><a href="mailto:sryan8@nd.edu" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Shane Ryan</li><li>2016</li>
+					</ul>
+				</footer>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Shane Ryan &nbsp;&bull;&nbsp; 2016 </span>
-
-							<!-- <a href="http://html5up.net">HTML5 UP</a> -->
-
-					</footer>
-
-			</div>
 		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>

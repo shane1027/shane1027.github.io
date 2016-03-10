@@ -10,16 +10,6 @@ actually made it multipurpose (versus copping out and making it a one pager like
 did last time ;) Includes multiple pages, a bunch of pre-styled elements, and all
 its Sass sources.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-n33.co @n33co dribbble.com/n33
-
 
 Credits:
 
